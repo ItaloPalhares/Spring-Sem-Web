@@ -21,7 +21,7 @@ public class ConsumoApi {
 		try {
 			response = client
 					  .send(request, BodyHandlers.ofString());
-			System.out.println(response.body());
+			
 			
 		} catch (IOException | InterruptedException e) {
 			// TODO Auto-generated catch block
